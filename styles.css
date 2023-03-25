@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    height: 649px;
+
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+
+}
+
+.flex-container>div {
+    background-color: hsl(0, 0%, 100%);
+
+    height: 400px;
+    width: 250px;
+
+    border-radius: 0 10px 10px 0;
+
+    margin: 0;
+
+}
+
+.flex-container>img {
+    background-color: hsl(0, 0%, 100%);
+
+    object-fit: cover;
+
+
+    width: 310px;
+    height: 460px;
+
+    border-radius: 10px 0 0 10px;
+    margin: 0;
+}
+
+
+.text-container {
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+
+    color: hsl(228, 12%, 48%);
+}
+
+.new-price {
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.mono-text {
+    font-family: "Montserrat", monospace;
+    font-size: 12px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: 0;
+    border-radius: 6px;
+
+    color: white;
+
+    max-width: 350px;
+    width: 100%;
+    padding: 12px 24px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.prices h1 {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.prices p {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+
+}
